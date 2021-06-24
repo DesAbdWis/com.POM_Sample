@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="paralel calistirma package" parallel="classes" thread-count="3">
+    <test name="paralel calisma">
+    <packages>
+        <package name="smokeTest"></package>
+        <package name="tests"></package>
+    </packages>
+    </test>
+</suite>
+
+<!--buradaki package seviyesindeki tum testler 3 browserda es zamanli calisacaktir-->

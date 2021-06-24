@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+        <suite name="cokluClistirma">
+        <test name="coklu calistirma testi">
+            <classes>
+                <class name="tests.D23_HomeworkSatirSayisi"></class>
+                <class name="tests.D23_HomeworkAmazon"></class>
+
+            </classes>
+
+        </test>
+        </suite>
+
+
+        <!--ayni anda iki farkli classtan calistirmak istersek
+        (method veya class in hepsi farketmez) <classes> </classes> icinde ayri bir class yapariz..
+        sayfayi calistirmak icin sag click Run sec-->

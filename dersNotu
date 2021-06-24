@@ -1,0 +1,12 @@
+Ø Coklu calistirma, Parallel calistirma ve Cross Browser calistirma farkli farkli islemlerdir.
+
+Ø Mesela 5 testi sirali olarak ama topluca calistirirsak : sirali coklu calistirma
+
+Ø 5 testin yarisini bir driverla, yarisini baska driverla calistirip,
+iki driver’I birlikte calistirirsam : parallel calistirma
+
+Ø 5 testi sirali olarak calistirip, ilk ucunu chrome,
+son ikisini firefox’da calistirirsam : sirali cros browser
+
+Ø 5 testin ucunu chrome, ikisini firefox ile calistirip,
+chrome ve firefox’u birlikte calistirirsam : parallel cross browsing test olur
